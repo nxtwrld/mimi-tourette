@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Mimi Tourette",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "1. Install this extension. 2. Read discussions at Mimibazar.cz. 3. Try not to laugh.",
     "icons": {
         "128": "images/icon128.png",

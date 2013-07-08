@@ -1,6 +1,16 @@
-module.exports = (grunt) ->
+﻿module.exports = (grunt) ->
 
   grunt.initConfig
+    
+    pkg: grunt.file.readJSON 'package.json'
+    
+    compress:
+      chrome:
+        options:
+          archive: 'package/<%= pkg.name %>-chrome.zip'
+        files: [
+          {expand: true, cwd: 'build/chrome', src: ['**'], dest: '/'}
+        ]
     
     jasmine:
       default:
@@ -61,6 +71,8 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-jasmine'
+  grunt.loadNpmTasks 'grunt-contrib-compress'
   
   grunt.registerTask 'default', ['copy:default', 'coffee:default', 'watch:default']
   grunt.registerTask 'test', ['coffee:test', 'coffee:testSpecs', 'coffee:testHelpers', 'watch:test']
+  grunt.registerTask 'package', ['compress:chrome']
