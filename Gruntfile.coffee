@@ -51,8 +51,8 @@ module.exports = (grunt) ->
     
     watch:
       default:
-        files: ['src/**/*.coffee']
-        tasks: ['coffee:default']
+        files: ['src/chrome/manifest.json', 'src/images/**', 'src/**/*.coffee']
+        tasks: ['copy:default', 'coffee:default']
       test:
         files: ['src/**/*.coffee']
         tasks: ['coffee:test', 'coffee:testSpecs', 'coffee:testHelpers', 'jasmine:default']
