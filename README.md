@@ -7,7 +7,3 @@ Hilarity ensues.
 ## Real purpose of this project
 
 The real purpose of this project is to play with [Grunt](http://gruntjs.com/) and to find good workflow for developing cross-platform browser extensions.
-
-## TODO
-
-* Construct manifest.json using data from package.json (name, description, version).
