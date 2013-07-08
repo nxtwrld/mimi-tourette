@@ -1,6 +1,6 @@
 var defaultCurses, getRandomCurse, imgPathRe, init, isMatchingImg, replaceElm, replaceEmoticons;
 
-imgPathRe = /^http:\/\/i\.mimibazar\.cz\/h\/bc\/i\/\d*\.gif/i;
+imgPathRe = /^http:\/\/i\.mimibazar\.cz\/h\/bc\/i\/\d*\.gif|^http:\/\/img\.mimibazar\.sk\/h\/bs\/i\/\d*\.gif/i;
 
 defaultCurses = 'kokot,piča,chuj,hovno,kunda,kurva,pyčo,čurák,jebať'.split(',');
 

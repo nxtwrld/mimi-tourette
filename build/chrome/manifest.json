@@ -11,7 +11,8 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.mimibazar.cz/*"
+                "*://*.mimibazar.cz/*",
+                "*://*.mimibazar.sk/*"
             ],
             "js": [
                 "js/contentscript.js"

@@ -11,10 +11,11 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.mimibazar.cz/*"
+                "*://*.mimibazar.cz/*",
+                "*://*.mimibazar.sk/*"
             ],
             "js": [
-                "contentscript.js"
+                "js/contentscript.js"
             ]
         }
     ]

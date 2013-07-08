@@ -1,6 +1,6 @@
 var createElementWithImg, matchingUrls, nonMatchingUrls;
 
-matchingUrls = ['http://i.mimibazar.cz/h/bc/i/45.gif'];
+matchingUrls = ['http://i.mimibazar.cz/h/bc/i/45.gif', 'http://img.mimibazar.sk/h/bs/i/88.gif'];
 
 nonMatchingUrls = ['http://fczbkk.com/image.png'];
 
