@@ -1,10 +1,11 @@
 {
   "name": "mimi-tourette",
   "version": "1.1.0",
-  "description": "Browser extension that replaces emoticons at Mimibazar.cz (and some other websites) with random curse words.",
+  "title": "Mimi Tourette",
+  "description": "Browser extension that replaces emoticons at Mimibazar.cz and Mimibazar.sk with random curse words.",
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/fczbkk/mimi-tourette"
   },
   "keywords": [
     "fun",
